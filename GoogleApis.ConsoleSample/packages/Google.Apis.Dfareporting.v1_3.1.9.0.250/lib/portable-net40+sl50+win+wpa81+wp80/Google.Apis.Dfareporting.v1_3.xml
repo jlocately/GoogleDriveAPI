@@ -1,0 +1,1545 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Google.Apis.Dfareporting.v1_3</name>
+    </assembly>
+    <members>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Activities">
+            <summary>Represents an activity group.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Activities.Filters">
+            <summary>List of activity filters. The dimension values need to be all either of type "dfa:activity" or
+            "dfa:activityGroup".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Activities.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#activities.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Activities.MetricNames">
+            <summary>List of names of floodlight activity metrics.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Activities.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.CompatibleFields">
+            <summary>Represents a response to the queryCompatibleFields method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CompatibleFields.CrossDimensionReachReportCompatibleFields">
+            <summary>Contains items that are compatible to be selected for a report of type
+            "CROSS_DIMENSION_REACH".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CompatibleFields.FloodlightReportCompatibleFields">
+            <summary>Contains items that are compatible to be selected for a report of type "FLOODLIGHT".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CompatibleFields.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#compatibleFields.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CompatibleFields.PathToConversionReportCompatibleFields">
+            <summary>Contains items that are compatible to be selected for a report of type
+            "PATH_TO_CONVERSION".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CompatibleFields.ReachReportCompatibleFields">
+            <summary>Contains items that are compatible to be selected for a report of type "REACH".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CompatibleFields.ReportCompatibleFields">
+            <summary>Contains items that are compatible to be selected for a report of type "STANDARD".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CompatibleFields.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.CrossDimensionReachReportCompatibleFields">
+            <summary>Represents fields that are compatible to be selected for a report of type
+            "CROSS_DIMENSION_REACH".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CrossDimensionReachReportCompatibleFields.Breakdown">
+            <summary>Dimensions which are compatible to be selected in the "breakdown" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CrossDimensionReachReportCompatibleFields.DimensionFilters">
+            <summary>Dimensions which are compatible to be selected in the "dimensionFilters" section of the
+            report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CrossDimensionReachReportCompatibleFields.Kind">
+            <summary>The kind of resource this is, in this case
+            dfareporting#crossDimensionReachReportCompatibleFields.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CrossDimensionReachReportCompatibleFields.Metrics">
+            <summary>Metrics which are compatible to be selected in the "metricNames" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CrossDimensionReachReportCompatibleFields.OverlapMetrics">
+            <summary>Metrics which are compatible to be selected in the "overlapMetricNames" section of the
+            report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CrossDimensionReachReportCompatibleFields.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.CustomRichMediaEvents">
+            <summary>Represents a Custom Rich Media Events group.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CustomRichMediaEvents.FilteredEventIds">
+            <summary>List of custom rich media event IDs. Dimension values must be all of type
+            dfa:richMediaEventTypeIdAndName.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CustomRichMediaEvents.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#customRichMediaEvents.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.CustomRichMediaEvents.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.DateRange">
+            <summary>Represents a date range.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DateRange.EndDate">
+            <summary>The end date of the date range, inclusive. A string of the format: "yyyy-MM-dd".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DateRange.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#dateRange.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DateRange.RelativeDateRange">
+            <summary>The date range relative to the date of when the report is run, one of: - "TODAY" - "YESTERDAY" -
+            "WEEK_TO_DATE" - "MONTH_TO_DATE" - "QUARTER_TO_DATE" - "YEAR_TO_DATE" - "PREVIOUS_WEEK" - "PREVIOUS_MONTH" -
+            "PREVIOUS_QUARTER" - "PREVIOUS_YEAR" - "LAST_7_DAYS" - "LAST_30_DAYS" - "LAST_90_DAYS" - "LAST_365_DAYS" -
+            "LAST_24_MONTHS"</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DateRange.StartDate">
+            <summary>The start date of the date range, inclusive. A string of the format: "yyyy-MM-dd".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DateRange.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Dimension">
+            <summary>Represents a dimension.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Dimension.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#dimension.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Dimension.Name">
+            <summary>The dimension name, e.g. dfa:advertiser</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Dimension.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.DimensionFilter">
+            <summary>Represents a dimension filter.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionFilter.DimensionName">
+            <summary>The name of the dimension to filter.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionFilter.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#dimensionFilter.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionFilter.Value">
+            <summary>The value of the dimension to filter.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionFilter.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.DimensionValue">
+            <summary>Represents a DimensionValue resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValue.DimensionName">
+            <summary>The name of the dimension.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValue.ETag">
+            <summary>The eTag of this response for caching purposes.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValue.Id">
+            <summary>The ID associated with the value if available.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValue.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#dimensionValue.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValue.MatchType">
+            <summary>Determines how the 'value' field is matched when filtering. One of: - EXACT (default if not
+            specified) - CONTAINS - BEGINS_WITH - WILDCARD_EXPRESSION (allowing '*' as a placeholder for variable length
+            character sequences, it can be escaped with a backslash.)  Note, only paid search dimensions
+            ('dfa:paidSearch*') allow a matchType other than EXACT.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValue.Value">
+            <summary>The value of the dimension.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.DimensionValueList">
+            <summary>Represents the list of DimensionValue resources.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueList.ETag">
+            <summary>The eTag of this response for caching purposes.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueList.Items">
+            <summary>The dimension values returned in this response.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueList.Kind">
+            <summary>The kind of list this is, in this case dfareporting#dimensionValueList.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueList.NextPageToken">
+            <summary>Continuation token used to page through dimension values. To retrieve the next page of results, set
+            the next request's "pageToken" to the value of this field. The page token is only valid for a limited amount
+            of time and should not be persisted.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest">
+            <summary>Represents a DimensionValuesRequest.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest.DimensionName">
+            <summary>The name of the dimension for which values should be requested.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest.EndDate">
+            <summary>The end date of the date range for which to retrieve dimension values. A string of the format:
+            "yyyy-MM-dd".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest.Filters">
+            <summary>The list of filters by which to filter values. The filters are ANDed.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest.Kind">
+            <summary>The kind of request this is, in this case dfareporting#dimensionValueRequest.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest.StartDate">
+            <summary>The start date of the date range for which to retrieve dimension values. A string of the format:
+            "yyyy-MM-dd".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.File">
+            <summary>Represents a File resource. A File contains the meta-data for a report run. It shows the status of the
+            run and holds the urls to the generated report data if the run is finished and the status is
+            "REPORT_AVAILABLE".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.DateRange">
+            <summary>The date range for which the file has report data. The date range will always be the absolute date
+            range for which the report is run.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.ETag">
+            <summary>The eTag of this response for caching purposes.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.FileName">
+            <summary>The file name of the file.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.Format">
+            <summary>The output format of the report. Only available once the file is available.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.Id">
+            <summary>The unique ID of this report file.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#file.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.LastModifiedTime">
+            <summary>The timestamp in milliseconds since epoch when this file was last modified.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.ReportId">
+            <summary>The ID of the report this file was generated from.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.Status">
+            <summary>The status of the report file, one of: - "PROCESSING" - "REPORT_AVAILABLE" - "FAILED" -
+            "CANCELLED"</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.Urls">
+            <summary>The urls where the completed report file can be downloaded.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.File.UrlsData">
+            <summary>The urls where the completed report file can be downloaded.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.UrlsData.ApiUrl">
+            <summary>The url for downloading the report data through the API.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.File.UrlsData.BrowserUrl">
+            <summary>The url for downloading the report data through a browser.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.FileList">
+            <summary>Represents the list of File resources.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FileList.ETag">
+            <summary>The eTag of this response for caching purposes.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FileList.Items">
+            <summary>The files returned in this response.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FileList.Kind">
+            <summary>The kind of list this is, in this case dfareporting#fileList.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FileList.NextPageToken">
+            <summary>Continuation token used to page through files. To retrieve the next page of results, set the next
+            request's "pageToken" to the value of this field. The page token is only valid for a limited amount of time
+            and should not be persisted.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.FloodlightReportCompatibleFields">
+            <summary>Represents fields that are compatible to be selected for a report of type "FlOODLIGHT".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FloodlightReportCompatibleFields.DimensionFilters">
+            <summary>Dimensions which are compatible to be selected in the "dimensionFilters" section of the
+            report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FloodlightReportCompatibleFields.Dimensions">
+            <summary>Dimensions which are compatible to be selected in the "dimensions" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FloodlightReportCompatibleFields.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#floodlightReportCompatibleFields.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FloodlightReportCompatibleFields.Metrics">
+            <summary>Metrics which are compatible to be selected in the "metricNames" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.FloodlightReportCompatibleFields.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Metric">
+            <summary>Represents a metric.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Metric.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#metric.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Metric.Name">
+            <summary>The metric name, e.g. dfa:impressions</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Metric.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.PathToConversionReportCompatibleFields">
+            <summary>Represents fields that are compatible to be selected for a report of type
+            "PATH_TO_CONVERSION".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.PathToConversionReportCompatibleFields.ConversionDimensions">
+            <summary>Conversion dimensions which are compatible to be selected in the "conversionDimensions" section of
+            the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.PathToConversionReportCompatibleFields.CustomFloodlightVariables">
+            <summary>Custom floodlight variables which are compatible to be selected in the "customFloodlightVariables"
+            section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.PathToConversionReportCompatibleFields.Kind">
+            <summary>The kind of resource this is, in this case
+            dfareporting#pathToConversionReportCompatibleFields.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.PathToConversionReportCompatibleFields.Metrics">
+            <summary>Metrics which are compatible to be selected in the "metricNames" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.PathToConversionReportCompatibleFields.PerInteractionDimensions">
+            <summary>Per-interaction dimensions which are compatible to be selected in the "perInteractionDimensions"
+            section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.PathToConversionReportCompatibleFields.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.ReachReportCompatibleFields">
+            <summary>Represents fields that are compatible to be selected for a report of type "REACH".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReachReportCompatibleFields.DimensionFilters">
+            <summary>Dimensions which are compatible to be selected in the "dimensionFilters" section of the
+            report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReachReportCompatibleFields.Dimensions">
+            <summary>Dimensions which are compatible to be selected in the "dimensions" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReachReportCompatibleFields.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#reachReportCompatibleFields.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReachReportCompatibleFields.Metrics">
+            <summary>Metrics which are compatible to be selected in the "metricNames" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReachReportCompatibleFields.PivotedActivityMetrics">
+            <summary>Metrics which are compatible to be selected as activity metrics to pivot on in the "activities"
+            section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReachReportCompatibleFields.ReachByFrequencyMetrics">
+            <summary>Metrics which are compatible to be selected in the "reachByFrequencyMetricNames" section of the
+            report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReachReportCompatibleFields.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Recipient">
+            <summary>Represents a recipient.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Recipient.DeliveryType">
+            <summary>The delivery type for the recipient, one of: - "ATTACHMENT" - "LINK"</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Recipient.Email">
+            <summary>The email address of the recipient.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Recipient.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#recipient.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Recipient.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report">
+            <summary>Represents a Report resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.AccountId">
+            <summary>The account ID to which this report belongs.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ActiveGrpCriteria">
+            <summary>The report criteria for a report of type "ACTIVE_GRP".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.Criteria">
+            <summary>The report criteria for a report of type "STANDARD".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteria">
+            <summary>The report criteria for a report of type "CROSS_DIMENSION_REACH".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.Delivery">
+            <summary>The report's email delivery settings.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ETag">
+            <summary>The eTag of this response for caching purposes.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FileName">
+            <summary>The file name used when generating report files for this report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteria">
+            <summary>The report criteria for a report of type "FLOODLIGHT".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.Format">
+            <summary>The output format of the report, one of: - "CSV" - "EXCEL"  If not specified, default format is
+            "CSV". Note that the actual format in the completed report file might differ if for instance the report's
+            size exceeds the format's capabilities. "CSV" will then be the fallback format.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.Id">
+            <summary>The unique ID identifying this report resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.LastModifiedTime">
+            <summary>The timestamp (in milliseconds since epoch) of when this report was last modified.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.Name">
+            <summary>The name of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.OwnerProfileId">
+            <summary>The user profile id of the owner of this report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteria">
+            <summary>The report criteria for a report of type "PATH_TO_CONVERSION".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteria">
+            <summary>The report criteria for a report of type "REACH".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.Schedule">
+            <summary>The report's schedule. Can only be set if the report's 'dateRange' is a relative date range and the
+            relative date range is not "TODAY".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.SubAccountId">
+            <summary>The subbaccount ID to which this report belongs if applicable.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.Type">
+            <summary>The type of the report, one of: - STANDARD - REACH - ACTIVE_GRP - PATH_TO_CONVERSION - FLOODLIGHT -
+            CROSS_DIMENSION_REACH</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.ActiveGrpCriteriaData">
+            <summary>The report criteria for a report of type "ACTIVE_GRP".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ActiveGrpCriteriaData.DateRange">
+            <summary>The date range this report should be run for.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ActiveGrpCriteriaData.DimensionFilters">
+            <summary>The list of filters on which dimensions are filtered. Filters for different dimensions are
+            ANDed, filters for the same dimension are grouped together and ORed. A valid active GRP report needs to
+            have exactly one DimensionValue for the United States in addition to any advertiser or campaign
+            dimension values.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ActiveGrpCriteriaData.Dimensions">
+            <summary>The list of dimensions the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ActiveGrpCriteriaData.MetricNames">
+            <summary>The list of names of metrics the report should include.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.CriteriaData">
+            <summary>The report criteria for a report of type "STANDARD".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CriteriaData.Activities">
+            <summary>Activity group.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CriteriaData.CustomRichMediaEvents">
+            <summary>Custom Rich Media Events group.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CriteriaData.DateRange">
+            <summary>The date range for which this report should be run.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CriteriaData.DimensionFilters">
+            <summary>The list of filters on which dimensions are filtered. Filters for different dimensions are
+            ANDed, filters for the same dimension are grouped together and ORed.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CriteriaData.Dimensions">
+            <summary>The list of standard dimensions the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CriteriaData.MetricNames">
+            <summary>The list of names of metrics the report should include.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteriaData">
+            <summary>The report criteria for a report of type "CROSS_DIMENSION_REACH".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteriaData.Breakdown">
+            <summary>The list of dimensions the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteriaData.DateRange">
+            <summary>The date range this report should be run for.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteriaData.Dimension">
+            <summary>The dimension option, one of: - "ADVERTISER" - "CAMPAIGN" - "SITE_BY_ADVERTISER" -
+            "SITE_BY_CAMPAIGN"</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteriaData.DimensionFilters">
+            <summary>The list of filters on which dimensions are filtered.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteriaData.MetricNames">
+            <summary>The list of names of metrics the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteriaData.OverlapMetricNames">
+            <summary>The list of names of overlap metrics the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.CrossDimensionReachCriteriaData.Pivoted">
+            <summary>Whether the report is pivoted or not. Defaults to true.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.DeliveryData">
+            <summary>The report's email delivery settings.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.DeliveryData.EmailOwner">
+            <summary>Whether the report should be emailed to the report owner.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.DeliveryData.EmailOwnerDeliveryType">
+            <summary>The type of delivery for the owner to receive, if enabled. One of: - "ATTACHMENT" -
+            "LINK"</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.DeliveryData.Message">
+            <summary>The message to be sent with each email.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.DeliveryData.Recipients">
+            <summary>The list of recipients to which to email the report.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData">
+            <summary>The report criteria for a report of type "FLOODLIGHT".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.CustomRichMediaEvents">
+            <summary>The list of custom rich media events to include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.DateRange">
+            <summary>The date range this report should be run for.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.DimensionFilters">
+            <summary>The list of filters on which dimensions are filtered. Filters for different dimensions are
+            ANDed, filters for the same dimension are grouped together and ORed.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.Dimensions">
+            <summary>The list of dimensions the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.FloodlightConfigId">
+            <summary>The floodlight ID for which to show data in this report. All advertisers associated with that
+            ID will automatically be added. The dimension of the value needs to be
+            'dfa:floodlightConfigId'.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.MetricNames">
+            <summary>The list of names of metrics the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.ReportProperties">
+            <summary>The properties of the report.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.ReportPropertiesData">
+            <summary>The properties of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.ReportPropertiesData.IncludeAttributedIPConversions">
+            <summary>Include conversions that have no cookie, but do have an exposure path.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.ReportPropertiesData.IncludeUnattributedCookieConversions">
+            <summary>Include conversions of users with a DoubleClick cookie but without an exposure. That means
+            the user did not click or see an ad from the advertiser within the Floodlight group, or that the
+            interaction happened outside the lookback window.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.FloodlightCriteriaData.ReportPropertiesData.IncludeUnattributedIPConversions">
+            <summary>Include conversions that have no associated cookies and no exposures. It’s therefore
+            impossible to know how the user was exposed to your ads during the lookback window prior to a
+            conversion.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData">
+            <summary>The report criteria for a report of type "PATH_TO_CONVERSION".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ActivityFilters">
+            <summary>The list of 'dfa:activity' values to filter on.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ConversionDimensions">
+            <summary>The list of conversion dimensions the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.CustomFloodlightVariables">
+            <summary>The list of custom floodlight variables the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.CustomRichMediaEvents">
+            <summary>The list of custom rich media events to include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.DateRange">
+            <summary>The date range this report should be run for.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.FloodlightConfigId">
+            <summary>The floodlight ID for which to show data in this report. All advertisers associated with that
+            ID will automatically be added. The dimension of the value needs to be
+            'dfa:floodlightConfigId'.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.MetricNames">
+            <summary>The list of names of metrics the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.PerInteractionDimensions">
+            <summary>The list of per interaction dimensions the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportProperties">
+            <summary>The properties of the report.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData">
+            <summary>The properties of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.ClicksLookbackWindow">
+            <summary>DFA checks to see if a click interaction occurred within the specified period of time
+            before a conversion. By default the value is pulled from Floodlight or you can manually enter a
+            custom value. Valid values: 1-90.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.ImpressionsLookbackWindow">
+            <summary>DFA checks to see if an impression interaction occurred within the specified period of time
+            before a conversion. By default the value is pulled from Floodlight or you can manually enter a
+            custom value. Valid values: 1-90.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.IncludeAttributedIPConversions">
+            <summary>Deprecated: has no effect.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.IncludeUnattributedCookieConversions">
+            <summary>Include conversions of users with a DoubleClick cookie but without an exposure. That means
+            the user did not click or see an ad from the advertiser within the Floodlight group, or that the
+            interaction happened outside the lookback window.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.IncludeUnattributedIPConversions">
+            <summary>Include conversions that have no associated cookies and no exposures. It’s therefore
+            impossible to know how the user was exposed to your ads during the lookback window prior to a
+            conversion.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.MaximumClickInteractions">
+            <summary>The maximum number of click interactions to include in the report. Advertisers currently
+            paying for E2C reports get up to 200 (100 clicks, 100 impressions). If another advertiser in your
+            network is paying for E2C, you can have up to 5 total exposures per report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.MaximumImpressionInteractions">
+            <summary>The maximum number of click interactions to include in the report. Advertisers currently
+            paying for E2C reports get up to 200 (100 clicks, 100 impressions). If another advertiser in your
+            network is paying for E2C, you can have up to 5 total exposures per report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.MaximumInteractionGap">
+            <summary>The maximum amount of time that can take place between interactions (clicks or impressions)
+            by the same user. Valid values: 1-90.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.PathToConversionCriteriaData.ReportPropertiesData.PivotOnInteractionPath">
+            <summary>Enable pivoting on interaction path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteriaData">
+            <summary>The report criteria for a report of type "REACH".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteriaData.Activities">
+            <summary>Activity group.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteriaData.CustomRichMediaEvents">
+            <summary>Custom Rich Media Events group.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteriaData.DateRange">
+            <summary>The date range this report should be run for.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteriaData.DimensionFilters">
+            <summary>The list of filters on which dimensions are filtered. Filters for different dimensions are
+            ANDed, filters for the same dimension are grouped together and ORed.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteriaData.Dimensions">
+            <summary>The list of dimensions the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteriaData.MetricNames">
+            <summary>The list of names of metrics the report should include.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ReachCriteriaData.ReachByFrequencyMetricNames">
+            <summary>The list of names of  Reach By Frequency metrics the report should include.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.Report.ScheduleData">
+            <summary>The report's schedule. Can only be set if the report's 'dateRange' is a relative date range and the
+            relative date range is not "TODAY".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ScheduleData.Active">
+            <summary>Whether the schedule is active or not. Must be set to either true or false.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ScheduleData.Every">
+            <summary>Defines every how many days, weeks or months the report should be run. Needs to be set when
+            "repeats" is either "DAILY", "WEEKLY" or "MONTHLY".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ScheduleData.ExpirationDate">
+            <summary>The expiration date when the scheduled report stops running.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ScheduleData.Repeats">
+            <summary>The interval for which the report is repeated, one of: - "DAILY", also requires field "every"
+            to be set. - "WEEKLY", also requires fields "every" and "repeatsOnWeekDays" to be set. - "TWICE_A_MONTH"
+            - "MONTHLY", also requires fields "every" and "runsOnDayOfMonth" to be set. - "QUARTERLY" -
+            "YEARLY"</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ScheduleData.RepeatsOnWeekDays">
+            <summary>List of week days "WEEKLY" on which scheduled reports should run.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ScheduleData.RunsOnDayOfMonth">
+            <summary>Enum to define for "MONTHLY" scheduled reports whether reports should be repeated on the same
+            day of the month as "startDate" or the same day of the week of the month. Possible values are: -
+            DAY_OF_MONTH - WEEK_OF_MONTH Example: If 'startDate' is Monday, April 2nd 2012 (2012-04-02),
+            "DAY_OF_MONTH" would run subsequent reports on the 2nd of every Month, and "WEEK_OF_MONTH" would run
+            subsequent reports on the first Monday of the month.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.Report.ScheduleData.StartDate">
+            <summary>Start date of date range for which scheduled reports should be run.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.ReportCompatibleFields">
+            <summary>Represents fields that are compatible to be selected for a report of type "STANDARD".</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportCompatibleFields.DimensionFilters">
+            <summary>Dimensions which are compatible to be selected in the "dimensionFilters" section of the
+            report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportCompatibleFields.Dimensions">
+            <summary>Dimensions which are compatible to be selected in the "dimensions" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportCompatibleFields.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#reportCompatibleFields.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportCompatibleFields.Metrics">
+            <summary>Metrics which are compatible to be selected in the "metricNames" section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportCompatibleFields.PivotedActivityMetrics">
+            <summary>Metrics which are compatible to be selected as activity metrics to pivot on in the "activities"
+            section of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportCompatibleFields.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.ReportList">
+            <summary>Represents the list of reports.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportList.ETag">
+            <summary>The eTag of this response for caching purposes.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportList.Items">
+            <summary>The reports returned in this response.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportList.Kind">
+            <summary>The kind of list this is, in this case dfareporting#reportList.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.ReportList.NextPageToken">
+            <summary>Continuation token used to page through reports. To retrieve the next page of results, set the next
+            request's "pageToken" to the value of this field. The page token is only valid for a limited amount of time
+            and should not be persisted.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.SortedDimension">
+            <summary>Represents a sorted dimension.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.SortedDimension.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#sortedDimension.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.SortedDimension.Name">
+            <summary>The name of the dimension.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.SortedDimension.SortOrder">
+            <summary>An optional sort order for the dimension column, one of: - "ASCENDING" - "DESCENDING"</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.SortedDimension.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.UserProfile">
+            <summary>Represents a UserProfile resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfile.AccountId">
+            <summary>The account ID to which this profile belongs.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfile.AccountName">
+            <summary>The account name this profile belongs to.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfile.ETag">
+            <summary>The eTag of this response for caching purposes.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfile.Kind">
+            <summary>The kind of resource this is, in this case dfareporting#userProfile.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfile.ProfileId">
+            <summary>The unique ID of the user profile.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfile.SubAccountId">
+            <summary>The sub account ID this profile belongs to if applicable.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfile.SubAccountName">
+            <summary>The sub account name this profile belongs to if applicable.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfile.UserName">
+            <summary>The user name.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.Data.UserProfileList">
+            <summary>Represents the list of user profiles.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfileList.ETag">
+            <summary>The eTag of this response for caching purposes.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfileList.Items">
+            <summary>The user profiles returned in this response.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.Data.UserProfileList.Kind">
+            <summary>The kind of list this is, in this case dfareporting#userProfileList.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.DfareportingService">
+            <summary>The Dfareporting Service.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.DfareportingService.Version">
+            <summary>The API version.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.DfareportingService.DiscoveryVersionUsed">
+            <summary>The discovery version used to generate this service.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DfareportingService.#ctor">
+            <summary>Constructs a new service.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DfareportingService.#ctor(Google.Apis.Services.BaseClientService.Initializer)">
+            <summary>Constructs a new service.</summary>
+            <param name="initializer">The service initializer.</param>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingService.Features">
+            <summary>Gets the service supported features.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingService.Name">
+            <summary>Gets the service name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingService.BaseUri">
+            <summary>Gets the service base URI.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingService.BasePath">
+            <summary>Gets the service base path.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingService.DimensionValues">
+            <summary>Gets the DimensionValues resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingService.Files">
+            <summary>Gets the Files resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingService.Reports">
+            <summary>Gets the Reports resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingService.UserProfiles">
+            <summary>Gets the UserProfiles resource.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.DfareportingService.Scope">
+            <summary>Available OAuth 2.0 scopes for use with the DFA Reporting API.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.DfareportingService.Scope.Dfareporting">
+            <summary>View and manage DoubleClick for Advertisers reports</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1">
+            <summary>A base abstract class for Dfareporting requests.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new DfareportingBaseServiceRequest instance.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.InitParameters">
+            <summary>Initializes Dfareporting parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.Alt">
+            <summary>Data format for the response.</summary>
+            [default: json]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.Key">
+            <summary>API key. Your API key identifies your project and provides you with API access, quota, and reports.
+            Required unless you provide an OAuth 2.0 token.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+            [default: true]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.QuotaUser">
+            <summary>Available to use for quota purposes for server-side applications. Can be any arbitrary string
+            assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.UserIp">
+            <summary>IP address of the site where the request originates. Use this if you want to enforce per-user
+            limits.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.AltEnum">
+            <summary>Data format for the response.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.DfareportingBaseServiceRequest`1.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.DimensionValuesResource">
+            <summary>The "dimensionValues" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.Query(Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest,System.Int64)">
+            <summary>Retrieves list of report dimension values for a list of filters.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="profileId">The DFA user profile ID.</param>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest">
+            <summary>Retrieves list of report dimension values for a list of filters.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Dfareporting.v1_3.Data.DimensionValueRequest,System.Int64)">
+            <summary>Constructs a new Query request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.InitParameters">
+            <summary>Initializes Query parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.ProfileId">
+            <summary>The DFA user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.PageToken">
+            <summary>The value of the nextToken from the previous result page.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.MaxResults">
+            <summary>Maximum number of results to return.</summary>
+            [minimum: 0]
+            [maximum: 100]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.DimensionValuesResource.QueryRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.FilesResource">
+            <summary>The "files" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.FilesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.Get(System.Int64,System.Int64)">
+            <summary>Retrieves a report file by its report ID and file ID.</summary>
+            <param name="reportId">The ID of the report.</param>
+            <param name="fileId">The ID of the report
+            file.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.List(System.Int64)">
+            <summary>Lists files for a user profile.</summary>
+            <param name="profileId">The DFA profile ID.</param>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest">
+            <summary>Retrieves a report file by its report ID and file ID.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.Int64,System.Int64)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.Download(System.IO.Stream)">
+            <summary>Synchronously download the media into the given stream.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.DownloadAsync(System.IO.Stream)">
+            <summary>Asynchronously download the media into the given stream.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.DownloadAsync(System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>Asynchronously download the media into the given stream.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.ReportId">
+            <summary>The ID of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.FileId">
+            <summary>The ID of the report file.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.GetRequest.MediaDownloader">
+            <summary>Gets the media downloader.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest">
+            <summary>Lists files for a user profile.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.Int64)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.ProfileId">
+            <summary>The DFA profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.SortField">
+            <summary>The field by which to sort the list.</summary>
+            [default: LAST_MODIFIED_TIME]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.MaxResults">
+            <summary>Maximum number of results to return.</summary>
+            [minimum: 0]
+            [maximum: 10]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.PageToken">
+            <summary>The value of the nextToken from the previous result page.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.SortOrder">
+            <summary>Order of sorted results, default is 'DESCENDING'.</summary>
+            [default: DESCENDING]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.Scope">
+            <summary>The scope that defines which results are returned, default is 'MINE'.</summary>
+            [default: MINE]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.SortFieldEnum">
+            <summary>The field by which to sort the list.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.SortFieldEnum.ID">
+            <summary>Sort by file ID.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.SortFieldEnum.LASTMODIFIEDTIME">
+            <summary>Sort by 'lastmodifiedAt' field.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.SortOrderEnum">
+            <summary>Order of sorted results, default is 'DESCENDING'.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.SortOrderEnum.ASCENDING">
+            <summary>Ascending order.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.SortOrderEnum.DESCENDING">
+            <summary>Descending order.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.ScopeEnum">
+            <summary>The scope that defines which results are returned, default is 'MINE'.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.ScopeEnum.ALL">
+            <summary>All files in account.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.ScopeEnum.MINE">
+            <summary>My files.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.FilesResource.ListRequest.ScopeEnum.SHAREDWITHME">
+            <summary>Files shared with me.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource">
+            <summary>The "reports" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.Delete(System.Int64,System.Int64)">
+            <summary>Deletes a report by its ID.</summary>
+            <param name="profileId">The DFA user profile ID.</param>
+            <param name="reportId">The ID of the
+            report.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.Get(System.Int64,System.Int64)">
+            <summary>Retrieves a report by its ID.</summary>
+            <param name="profileId">The DFA user profile ID.</param>
+            <param name="reportId">The ID of the
+            report.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.Insert(Google.Apis.Dfareporting.v1_3.Data.Report,System.Int64)">
+            <summary>Creates a report.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="profileId">The DFA user profile ID.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.List(System.Int64)">
+            <summary>Retrieves list of reports.</summary>
+            <param name="profileId">The DFA user profile ID.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.Patch(Google.Apis.Dfareporting.v1_3.Data.Report,System.Int64,System.Int64)">
+            <summary>Updates a report. This method supports patch semantics.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="profileId">The DFA user profile ID.</param>
+            <param name="reportId">The ID of the
+            report.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.Run(System.Int64,System.Int64)">
+            <summary>Runs a report.</summary>
+            <param name="profileId">The DFA profile ID.</param>
+            <param name="reportId">The ID of the
+            report.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.Update(Google.Apis.Dfareporting.v1_3.Data.Report,System.Int64,System.Int64)">
+            <summary>Updates a report.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="profileId">The DFA user profile ID.</param>
+            <param name="reportId">The ID of the
+            report.</param>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFields">
+            <summary>Gets the CompatibleFields resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.Files">
+            <summary>Gets the Files resource.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource">
+            <summary>The "compatibleFields" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.Query(Google.Apis.Dfareporting.v1_3.Data.Report,System.Int64)">
+            <summary>Returns the fields that are compatible to be selected in the respective sections of a report
+            criteria, given the fields already selected in the input report and user permissions.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="profileId">The DFA user profile ID.</param>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest">
+            <summary>Returns the fields that are compatible to be selected in the respective sections of a report
+            criteria, given the fields already selected in the input report and user permissions.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Dfareporting.v1_3.Data.Report,System.Int64)">
+            <summary>Constructs a new Query request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest.InitParameters">
+            <summary>Initializes Query parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest.ProfileId">
+            <summary>The DFA user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.CompatibleFieldsResource.QueryRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource">
+            <summary>The "files" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.Get(System.Int64,System.Int64,System.Int64)">
+            <summary>Retrieves a report file.</summary>
+            <param name="profileId">The DFA profile ID.</param>
+            <param name="reportId">The ID of the
+            report.</param>
+            <param name="fileId">The ID of the report file.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.List(System.Int64,System.Int64)">
+            <summary>Lists files for a report.</summary>
+            <param name="profileId">The DFA profile ID.</param>
+            <param name="reportId">The ID of the parent
+            report.</param>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest">
+            <summary>Retrieves a report file.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.Int64,System.Int64,System.Int64)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.Download(System.IO.Stream)">
+            <summary>Synchronously download the media into the given stream.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.DownloadAsync(System.IO.Stream)">
+            <summary>Asynchronously download the media into the given stream.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.DownloadAsync(System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>Asynchronously download the media into the given stream.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.ProfileId">
+            <summary>The DFA profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.ReportId">
+            <summary>The ID of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.FileId">
+            <summary>The ID of the report file.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.GetRequest.MediaDownloader">
+            <summary>Gets the media downloader.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest">
+            <summary>Lists files for a report.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.Int64,System.Int64)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.ProfileId">
+            <summary>The DFA profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.ReportId">
+            <summary>The ID of the parent report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.SortField">
+            <summary>The field by which to sort the list.</summary>
+            [default: LAST_MODIFIED_TIME]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.MaxResults">
+            <summary>Maximum number of results to return.</summary>
+            [minimum: 0]
+            [maximum: 10]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.PageToken">
+            <summary>The value of the nextToken from the previous result page.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.SortOrder">
+            <summary>Order of sorted results, default is 'DESCENDING'.</summary>
+            [default: DESCENDING]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.SortFieldEnum">
+            <summary>The field by which to sort the list.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.SortFieldEnum.ID">
+            <summary>Sort by file ID.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.SortFieldEnum.LASTMODIFIEDTIME">
+            <summary>Sort by 'lastmodifiedAt' field.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.SortOrderEnum">
+            <summary>Order of sorted results, default is 'DESCENDING'.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.SortOrderEnum.ASCENDING">
+            <summary>Ascending order.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.FilesResource.ListRequest.SortOrderEnum.DESCENDING">
+            <summary>Descending order.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.DeleteRequest">
+            <summary>Deletes a report by its ID.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.Int64,System.Int64)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.DeleteRequest.ProfileId">
+            <summary>The DFA user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.DeleteRequest.ReportId">
+            <summary>The ID of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.GetRequest">
+            <summary>Retrieves a report by its ID.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.Int64,System.Int64)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.GetRequest.ProfileId">
+            <summary>The DFA user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.GetRequest.ReportId">
+            <summary>The ID of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest">
+            <summary>Creates a report.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Dfareporting.v1_3.Data.Report,System.Int64)">
+            <summary>Constructs a new Insert request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest.InitParameters">
+            <summary>Initializes Insert parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest.ProfileId">
+            <summary>The DFA user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.InsertRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest">
+            <summary>Retrieves list of reports.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.Int64)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.ProfileId">
+            <summary>The DFA user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortField">
+            <summary>The field by which to sort the list.</summary>
+            [default: LAST_MODIFIED_TIME]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.MaxResults">
+            <summary>Maximum number of results to return.</summary>
+            [minimum: 0]
+            [maximum: 10]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.PageToken">
+            <summary>The value of the nextToken from the previous result page.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortOrder">
+            <summary>Order of sorted results, default is 'DESCENDING'.</summary>
+            [default: DESCENDING]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.Scope">
+            <summary>The scope that defines which results are returned, default is 'MINE'.</summary>
+            [default: MINE]
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortFieldEnum">
+            <summary>The field by which to sort the list.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortFieldEnum.ID">
+            <summary>Sort by report ID.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortFieldEnum.LASTMODIFIEDTIME">
+            <summary>Sort by 'lastModifiedTime' field.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortFieldEnum.NAME">
+            <summary>Sort by name of reports.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortOrderEnum">
+            <summary>Order of sorted results, default is 'DESCENDING'.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortOrderEnum.ASCENDING">
+            <summary>Ascending order.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.SortOrderEnum.DESCENDING">
+            <summary>Descending order.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.ScopeEnum">
+            <summary>The scope that defines which results are returned, default is 'MINE'.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.ScopeEnum.ALL">
+            <summary>All reports in account.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.ReportsResource.ListRequest.ScopeEnum.MINE">
+            <summary>My reports.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest">
+            <summary>Updates a report. This method supports patch semantics.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Dfareporting.v1_3.Data.Report,System.Int64,System.Int64)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.ProfileId">
+            <summary>The DFA user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.ReportId">
+            <summary>The ID of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest">
+            <summary>Runs a report.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest.#ctor(Google.Apis.Services.IClientService,System.Int64,System.Int64)">
+            <summary>Constructs a new Run request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest.InitParameters">
+            <summary>Initializes Run parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest.ProfileId">
+            <summary>The DFA profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest.ReportId">
+            <summary>The ID of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest.Synchronous">
+            <summary>If set and true, tries to run the report synchronously.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.RunRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest">
+            <summary>Updates a report.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Dfareporting.v1_3.Data.Report,System.Int64,System.Int64)">
+            <summary>Constructs a new Update request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.InitParameters">
+            <summary>Initializes Update parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.ProfileId">
+            <summary>The DFA user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.ReportId">
+            <summary>The ID of the report.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.ReportsResource.UpdateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.UserProfilesResource">
+            <summary>The "userProfiles" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Dfareporting.v1_3.UserProfilesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.UserProfilesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.UserProfilesResource.Get(System.Int64)">
+            <summary>Gets one user profile by ID.</summary>
+            <param name="profileId">The user profile ID.</param>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.UserProfilesResource.List">
+            <summary>Retrieves list of user profiles for a user.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.UserProfilesResource.GetRequest">
+            <summary>Gets one user profile by ID.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.UserProfilesResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.Int64)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.UserProfilesResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.UserProfilesResource.GetRequest.ProfileId">
+            <summary>The user profile ID.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.UserProfilesResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.UserProfilesResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.UserProfilesResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.Dfareporting.v1_3.UserProfilesResource.ListRequest">
+            <summary>Retrieves list of user profiles for a user.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.UserProfilesResource.ListRequest.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.Dfareporting.v1_3.UserProfilesResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.UserProfilesResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.UserProfilesResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Dfareporting.v1_3.UserProfilesResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+    </members>
+</doc>

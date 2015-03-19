@@ -1,0 +1,208 @@
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\client_secrets.json
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.exe.config
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.exe
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\log4net.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Newtonsoft.Json.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.IO.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Extensions.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Primitives.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.WebRequest.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Runtime.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Threading.Tasks.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Zlib.Portable.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\log4net.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Newtonsoft.Json.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.IO.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Extensions.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Primitives.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.WebRequest.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Runtime.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Threading.Tasks.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Zlib.Portable.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.csproj.App.config
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.exe
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.csprojResolveAssemblyReference.cache
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\client_secrets.json
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.exe.config
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.exe
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\log4net.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Newtonsoft.Json.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.IO.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Extensions.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Primitives.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.WebRequest.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Runtime.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Threading.Tasks.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Zlib.Portable.dll
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\log4net.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Newtonsoft.Json.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.IO.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Extensions.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Primitives.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.WebRequest.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Runtime.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Threading.Tasks.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Zlib.Portable.xml
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.csproj.App.config
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.exe
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.pdb
+D:\Dados\jlocately\Downloads\Desktop\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.csprojResolveAssemblyReference.cache
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.exe.config
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.exe
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.pdb
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\client_secrets.json
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.exe
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.pdb
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\log4net.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Newtonsoft.Json.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.IO.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Extensions.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Primitives.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.WebRequest.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Runtime.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Threading.Tasks.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Zlib.Portable.dll
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.pdb
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.pdb
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.pdb
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.pdb
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.pdb
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\log4net.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Newtonsoft.Json.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.IO.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Extensions.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Primitives.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.WebRequest.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Runtime.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Threading.Tasks.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Zlib.Portable.xml
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.csproj.App.config
+D:\JLOCATELY\1. TV\MOBO01\_DOCUMENTOS\API Drive\Fontes\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.csprojResolveAssemblyReference.cache
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\client_secrets.json
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.exe.config
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.exe
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Drive.Sample.pdb
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\log4net.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Newtonsoft.Json.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.IO.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Extensions.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Primitives.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.WebRequest.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Runtime.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Threading.Tasks.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Zlib.Portable.dll
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.pdb
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.pdb
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.pdb
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Core.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.pdb
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.Drive.v2.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.pdb
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Google.Apis.PlatformServices.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\log4net.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Newtonsoft.Json.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.IO.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Extensions.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.Primitives.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Net.Http.WebRequest.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Runtime.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\System.Threading.Tasks.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\bin\Debug\Zlib.Portable.xml
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.csproj.App.config
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.csprojResolveAssemblyReference.cache
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.exe
+D:\Dados\jlocately\Downloads\Desktop\google-api-dotnet-client-1.9.0.samples\Drive.Sample\obj\Debug\Drive.Sample.pdb
